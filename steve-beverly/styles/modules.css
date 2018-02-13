@@ -10,7 +10,7 @@
 .main-nav li {
   list-style-type: none;
   padding-left: 0;
-  font-size: 6vh;
+  font-size: 5vh;
 }
 
 a {
@@ -32,11 +32,63 @@ hr {
 
 h1 {
   font-size: 9vh;
-  padding-left: 5vw;
+  margin: 2vh 0;
 }
 
 h2 {
   font-size: 5vh;
-  padding-left: 5vw;
 }
 
+#about header, #about h2 {
+  font-size: 5vh;
+  font-weight: normal;
+}
+
+img {
+  margin: 1vh;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.about {
+  display: block;
+}
+
+footer {
+  text-align: center;
+}
+
+@media only screen and (min-width: 640px) {
+  .icon-menu {
+    display: none;
+  }
+
+  .main-nav[disabled]:hover ul {
+    pointer-events: none;
+  }
+
+  .main-nav hr {
+    display: none;
+  }
+
+  .main-nav ul {
+    display: block;
+  }
+
+  .main-nav li {
+    display: inline-block;
+    margin-left: 2vw;
+  }
+
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

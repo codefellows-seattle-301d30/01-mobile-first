@@ -3,6 +3,6 @@
   padding: 2vh 1vh; 
 }
 
-nav {
-
+address {
+  display: inline-block;
 }
