@@ -16,3 +16,26 @@
   padding-bottom: .5em;
   border-bottom: solid 2px #ccc;
 }
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+@media (min-width: 640px) {
+  .icon-menu{
+    display:none;
+  }
+
+  .main-nav ul {
+    display: block;
+  }
+
+  .main-nav li {
+    display: inline-block;
+    border: none;
+  }
+}
