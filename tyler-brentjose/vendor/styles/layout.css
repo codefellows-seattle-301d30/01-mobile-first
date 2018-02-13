@@ -1,12 +1,14 @@
 .site-header {
   background-color: #ffeaa9;
-  display: relative;
+  padding-bottom: 1em;
 }
 
 .icon-menu {
   float: right;
-  display: absolute;
-  margin-top: -7em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 25pt;
 }
 
 a {

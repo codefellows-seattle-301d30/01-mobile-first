@@ -14,7 +14,9 @@
 .main-nav li {
   padding-top: .5em;
   padding-bottom: .5em;
-  border-bottom: solid 2px #ccc;
+  border-bottom: solid 1px #ccc;
+  font-size: 15pt;
+  margin-right: 1em;
 }
 
 .pull-left {
@@ -23,6 +25,10 @@
 
 .pull-right {
   float: right;
+}
+
+.byline a {
+  font-weight: bold;
 }
 
 @media (min-width: 640px) {
@@ -37,5 +43,6 @@
   .main-nav li {
     display: inline-block;
     border: none;
+    padding-left: 2%;
   }
 }
