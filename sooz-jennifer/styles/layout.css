@@ -1,0 +1,10 @@
+@media screen and (min-width: 640px){
+  .icon-menu{
+    display:none;
+  }
+}
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
