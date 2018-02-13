@@ -98,7 +98,7 @@ The navigator (who will become the new driver):
 
 ## Resources  
 <!-- a list of links if any are necessary for the assignment-->
-- [Video: Mobile Testing Tip for Your Phone] (https://www.youtube.com/watch?v=2t4E_tc8TKM)
+- [Video: Mobile Testing Tip for Your Phone](https://www.youtube.com/watch?v=2t4E_tc8TKM)
 
 ---
 
