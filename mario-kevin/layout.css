@@ -1,0 +1,10 @@
+@media all and (min-width: 600px) {
+  #bugerMenu {
+    display: none;
+  }
+}
+@media all and (min-width: 601px) and (max-width: 1000px) {
+  body {
+    background-color: rgb(184, 50, 50)
+  }
+}
