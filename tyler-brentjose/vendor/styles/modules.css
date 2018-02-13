@@ -2,8 +2,17 @@
   padding-left: 1em;
 }
 
+.main-nav ul {
+  margin: 0;
+  display: none;
+}
+
+.icon-menu:hover + ul{
+  display: block;
+}
+
 .main-nav li {
   padding-top: .5em;
   padding-bottom: .5em;
-  border-bottom: solid 2px grey;
+  border-bottom: solid 2px #ccc;
 }
