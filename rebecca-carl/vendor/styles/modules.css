@@ -9,19 +9,6 @@
 ul > li {
   display: none;
   margin-right: 10px;
-  /* font-size: 1.5vw; */
-}
-
-/* .icon-menu > ul {
-  display: none;
-} */
-
-/* .icon-menu:hover > ul {
-  display: block;
-} */
-
-.icon-menu:hover ul > li {
-  display: block;
 }
 
 a:link {
@@ -29,13 +16,23 @@ a:link {
   color: gray;
 }
 
-.clearfix:after {
-  clear: both;
-}
-
 .icon-menu {
-  position: fixed;
+  position: absolute;
   top: 0px;
   right: 0px;
   font-size: 32px;
 }
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right; 
+}
+
