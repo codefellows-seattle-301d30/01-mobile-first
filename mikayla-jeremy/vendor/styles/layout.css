@@ -7,13 +7,13 @@
     display: inline-block; 
 }
 
-#navLinks li a{
+.tab a{
     text-decoration: none;
     font-size: 30px;
     color: grey;
 }
 
-li{
+.tab{
     list-style-type: none;
     float: left;
     padding: 10px;
