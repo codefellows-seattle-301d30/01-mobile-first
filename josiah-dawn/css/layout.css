@@ -1,3 +1,4 @@
+
 .site-header {
   background-color: #ffeaa9;
   width: 100%;
@@ -30,3 +31,53 @@
   display: block;
   clear: both;
 }
+
+.imgBacon{
+  width:100%;
+}
+
+.imgLorem{
+  width:100%;
+}
+
+.tab-content{
+  width:90%;
+  margin:0 auto;
+}
+
+
+/* .icon-menu:hover{
+  display:block;
+} */
+/* 
+.icon-menu ul {
+  display:none;
+} */
+
+
+
+
+.dropdown{
+  display:none;
+  /* position: absolute; */
+  z-index:1;
+  
+}
+
+.main-nav:hover .dropdown{
+display:block;
+}
+
+ a{
+padding:12px 0;
+text-decoration: none;
+list-style: none;
+}
+
+li{
+  list-style:none;
+}
+
+
+
+
