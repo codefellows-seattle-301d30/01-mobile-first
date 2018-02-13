@@ -1,3 +1,41 @@
 .byline > *{
   display: inline-block;
 }
+
+.icon-menu {
+  display: inline-block;
+}
+
+ul > li {
+  display: none;
+  margin-right: 10px;
+  /* font-size: 1.5vw; */
+}
+
+/* .icon-menu > ul {
+  display: none;
+} */
+
+/* .icon-menu:hover > ul {
+  display: block;
+} */
+
+.icon-menu:hover ul > li {
+  display: block;
+}
+
+a:link {
+  text-decoration: none;
+  color: gray;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.icon-menu {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  font-size: 32px;
+}
