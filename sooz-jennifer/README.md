@@ -1,16 +1,13 @@
-# Project Name
+# Kilovolt Blog
 
 **Author**: Jennifer Williams Piper and Suzanne Richman
-**Version**: 1.0.3
+
+**Version**: 1.0.4
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
-
 This application is to provide information to a user about various subjects in an easy-to-use manner that entices them to come back regularly. It should also ensure that user has a similar experience on desktop and mobile devices.
 
-
 ## Getting Started
-
 The user would need to 
 * Create index.html
 * Get the icons from IcoMoon
@@ -33,6 +30,10 @@ Project uses HTML and CSS.
 02-13-2018 11:20am - Completed mobile styling of nav and header
 
 02-13-2018 11:40am - Updated mobile display and navigation.
+
+02-13-2018 11:45am - Updated README.md
+
+02-13-2018 12:15pm - Completed all featured tasks for user scenarios.
 
 ## Credits and Collaborations
 
