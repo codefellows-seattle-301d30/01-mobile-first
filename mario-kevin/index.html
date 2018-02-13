@@ -2,18 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel= "stylesheet" href="style/icons.css">
-  <link rel="stylesheet" href="base.css">
-  <link rel="stylesheet" href="layout.css">
-  <link rel="stylesheet" href="modules.css">
   <title>Lab 1</title>
   <!-- DONE: Add a meta tag to properly set the viewport and initial scale -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- DONE: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
-
+  <link rel="stylesheet" href="vendor/normalize.css">
+  
   <!-- DONE: Link in the provided styles/icons.css file so that you can use icon fonts -->
-
+  <link rel= "stylesheet" href="vendor/styles/icons.css">
+  
   <!-- DONE: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="modules.css">
 
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
   <!-- Start with the base sheet which refers to base elements of the page such as body, background, and font. Layout refers to the elements that format the page. Modules refers to anything that is inside the indiviual layouts, such as the content of the page following the baseline rules of specificity. -->
@@ -35,8 +36,8 @@
       <h2>The shocking power of static pages</h2>
     </section>
     <nav class="main-nav">
-      <!-- TODO: Add a hamburger menu icon here, which will show/hide depending on screen width (desktop vs. mobile). -->
-
+      <!-- DONE: Add a hamburger menu icon here, which will show/hide depending on screen width (desktop vs. mobile). -->
+      <div id="bugerMenu" class="icon-menu"></div>
       <ul>
         <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
         <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
