@@ -4,18 +4,16 @@
 **Version**: 1.0.0
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
+We had to style an existing website geared towards mobile-first with a breakpoint at 640px to provide the same user experience on various screen sizes. We also had to add a hamburger menu that displayed upon hover.
 
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+A user must know how to do media queries, understand HTML and CSS.
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+We used HTML and CSS. We used SMACSS to organize the CSS files. We used IDs and classes to target specific elements.
 
 ## Change Log
-<!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
-
-01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
+02/1301028 2:00pm - Application has functioning hamburger navigation menu that displays on hover. Application navigation menu also changes display when viewed on desktop instead of mobile.
 
 ## Credits and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+We used Stack Overflow to research features and properties we were not sure how to use. We learned about clear fix at https://css-tricks.com/snippets/css/clear-fix/. IcoMoon icon fonts were provided to us. Kat (our TA) and Allie (our instructor) also helped us.
