@@ -18,3 +18,18 @@
 .icon-menu:hover + ul{
   display: block;
 }
+
+@media only screen and (min-width: 600px) {
+  .main-nav ul{
+    display: block;
+    padding: 0;
+    list-style-type: none;
+  }
+  .main-nav li{
+    display: inline;
+    border-bottom: none;
+  }
+  .icon-menu {
+    display: none;
+  }
+}
