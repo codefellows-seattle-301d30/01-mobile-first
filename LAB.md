@@ -44,7 +44,7 @@ When you are finished with lab, follow these steps to submit your work. Create o
 
 ### Set up your repo
 
-![High-level Overview: Git Workflow](lab/gitflow_front.png)
+![High-level Overview: Git Workflow](gitflow_front.png)
 
 Here is the recommended workflow:
 
