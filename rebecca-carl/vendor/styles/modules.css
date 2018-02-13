@@ -1,0 +1,38 @@
+.byline > *{
+  display: inline-block;
+}
+
+.icon-menu {
+  display: inline-block;
+}
+
+ul > li {
+  display: none;
+  margin-right: 10px;
+}
+
+a:link {
+  text-decoration: none;
+  color: gray;
+}
+
+.icon-menu {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 32px;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right; 
+}
+
