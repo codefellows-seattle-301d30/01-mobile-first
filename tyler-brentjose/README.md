@@ -18,7 +18,7 @@ Though a navigation bar is included the links are not yet live.
 
 02-13-2018 11:30AM - CSS now shows page will desired styling, but no interactive or RWD features.
 
-02-13-2018 1:30PM - Page responded to resizing and has a hover state over the hamburger menu.
+02-13-2018 1:30PM - Page responded to resizing and has a hover state over the hamburger menu. Also did image sizing in tablet vs desktop versions.
 
 ## Credits and Collaborations
 To build this project we made up of articles listed on MDN:
