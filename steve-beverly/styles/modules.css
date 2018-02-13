@@ -1,4 +1,13 @@
 .main-nav ul {
+  display: none;
+  padding-left: 0;
+}
+
+.main-nav:hover ul {
+  display: block;
+}
+
+.main-nav li {
   list-style-type: none;
   padding-left: 0;
   font-size: 6vh;
