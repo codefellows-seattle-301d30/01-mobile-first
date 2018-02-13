@@ -13,3 +13,7 @@ a {
   color: #777;
   text-decoration: none;
 }
+
+.article-body {
+  line-height: 1.5;
+}
