@@ -1,0 +1,32 @@
+.site-header {
+  background-color: #ffeaa9;
+  width: 100%;
+}
+
+.heading-group-h1 {
+  float: left;
+  padding: 20px 0 0 10px;
+  font-weight: 800;
+  width: 75%;
+}
+
+.heading-group-h1 h1 {
+  margin-top: 0px;
+  font-size: 10vw;
+}
+
+.heading-group-h1 h2 {
+  font-size: 5vw;
+}
+
+.icon-menu {
+  float: right;
+  font-size: 10vw;
+  padding: 10px 5px 0 0;
+}
+
+.main-nav:after {
+  content: '';
+  display: block;
+  clear: both;
+}
