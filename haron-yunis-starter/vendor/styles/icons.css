@@ -23,9 +23,6 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-hambuger:before {
-  content: "\e9bd";
-}
 .icon-home:before {
 	content: "\e908";
 }
@@ -41,8 +38,9 @@
 .icon-power:before {
 	content: "\e90a";
 }
+
 .icon-menu:before {
-	content: "\e902";
+  content: "\e902"; 
 }
 .icon-link:before {
 	content: "\e903";
